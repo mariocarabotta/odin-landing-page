@@ -6,7 +6,6 @@
 
 body {
     font-family: Roboto, sans-serif;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -16,9 +15,8 @@ header, .hero {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
     padding: 28px;
+    margin: 0 auto;
 
     h1 {
         font-size: 24px;
@@ -30,5 +28,63 @@ header {
         display: flex;
         justify-content: space-between;
         gap: 20px;
+    }
+}
+
+.wrapper {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.hero > .wrapper {
+    gap: 60px;
+    padding: 80px 0;
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+        border-radius: 8px;
+        background-color: hsl(217, 91%, 59%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    img {
+    max-width: 50%;
+    border-radius: 8px;
+    }
+}
+
+.hero p:first-child {
+    font-size: 48px;
+    font-weight: 900;
+    color: hsl(90, 17%, 98%);
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: hsl(220, 13%, 91%);
+}
+
+.information {
+    padding: 40px 0;
+    text-align: center;
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        max-width: 990px;
+        margin: 40px auto;
+
+        img {
+            max-width: 200px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
     }
 }

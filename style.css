@@ -111,3 +111,35 @@ figure {
         margin-top: 20px;
     }
 }
+
+.cta {
+    background-color: hsl(217, 91%, 59%);
+    margin: 80px auto;
+    max-width: 1000px;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    color: hsl(0, 0%, 100%);
+
+    button {
+        padding: 8px 40px;
+        background-color:  hsl(217, 91%, 59%);
+        border: 2px solid hsl(0, 0%, 100%);
+        border-radius: 4px;
+        color: hsl(0, 0%, 100%);
+    }
+    div :first-child {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+footer {
+    background-color: hsl(215, 28%, 17%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: hsl(0, 0%, 100%);
+    padding: 40px 0;
+}
